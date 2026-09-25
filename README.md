@@ -24,6 +24,7 @@ A robust Python command-line utility and library designed to reconcile **CoinTra
 ## Documentation Guides
 
 - [CSV Format Specifications (`docs/format_specifications.md`)](docs/format_specifications.md) — Exhaustive schema definitions, data types, and CSV examples for CoinTracking, Coinbase, Gemini, and Bittrex.
+- [Documentation Sources & References (`docs/documentation_sources.md`)](docs/documentation_sources.md) — Official knowledge base links, developer API docs, and open-source references for all formats.
 - [Exchange Export Retrieval Guide (`docs/exchange_export_guide.md`)](docs/exchange_export_guide.md) — Step-by-step instructions on navigating and downloading reports from each exchange.
 - [Tax Reconciliation & Discrepancy Guide (`docs/reconciliation_guide.md`)](docs/reconciliation_guide.md) — Practical guide to crypto tax accounting, root causes of mismatches, and remediation workflows.
 - [Architecture & Extensibility Guide (`docs/architecture.md`)](docs/architecture.md) — System design, matching algorithm details, and instructions for adding new exchange parsers.
@@ -36,6 +37,7 @@ A robust Python command-line utility and library designed to reconcile **CoinTra
 tax_help/
 ├── docs/
 │   ├── format_specifications.md    # Detailed specifications and row examples
+│   ├── documentation_sources.md    # Official links and reference sources
 │   ├── exchange_export_guide.md    # Step-by-step export download instructions
 │   ├── reconciliation_guide.md     # In-depth tax reconciliation & issue fixing guide
 │   └── architecture.md             # System design & developer guide

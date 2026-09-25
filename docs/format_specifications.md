@@ -2,6 +2,9 @@
 
 This document provides a detailed reference for the CSV export formats used by **CoinTracking** and the cryptocurrency exchanges **Coinbase** (Retail & Pro), **Gemini**, and **Bittrex**. It details column layouts, data types, timestamp conventions, transaction representations, and common edge cases.
 
+> [!NOTE]
+> For a full list of official documentation links, API guides, and open-source references consulted, see [Documentation Sources & References](documentation_sources.md).
+
 ---
 
 ## 1. CoinTracking CSV Export Format
