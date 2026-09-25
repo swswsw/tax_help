@@ -21,6 +21,13 @@ A robust Python command-line utility and library designed to reconcile **CoinTra
   - **Missing Record Reporting**: Flags untracked exchange trades (missing in CoinTracking) and phantom entries (missing in exchange).
 - **Multiple Output Formats**: Rich interactive console tables, clean JSON for downstream automation, or formatted GitHub Markdown.
 
+## Documentation Guides
+
+- [CSV Format Specifications (`docs/format_specifications.md`)](docs/format_specifications.md) — Exhaustive schema definitions, data types, and CSV examples for CoinTracking, Coinbase, Gemini, and Bittrex.
+- [Exchange Export Retrieval Guide (`docs/exchange_export_guide.md`)](docs/exchange_export_guide.md) — Step-by-step instructions on navigating and downloading reports from each exchange.
+- [Tax Reconciliation & Discrepancy Guide (`docs/reconciliation_guide.md`)](docs/reconciliation_guide.md) — Practical guide to crypto tax accounting, root causes of mismatches, and remediation workflows.
+- [Architecture & Extensibility Guide (`docs/architecture.md`)](docs/architecture.md) — System design, matching algorithm details, and instructions for adding new exchange parsers.
+
 ---
 
 ## Directory Structure
@@ -28,7 +35,10 @@ A robust Python command-line utility and library designed to reconcile **CoinTra
 ```text
 tax_help/
 ├── docs/
-│   └── format_specifications.md    # Detailed specifications and row examples
+│   ├── format_specifications.md    # Detailed specifications and row examples
+│   ├── exchange_export_guide.md    # Step-by-step export download instructions
+│   ├── reconciliation_guide.md     # In-depth tax reconciliation & issue fixing guide
+│   └── architecture.md             # System design & developer guide
 ├── sample_data/                    # Sample CSV files for testing and reference
 │   ├── cointracking_sample.csv
 │   ├── coinbase_retail_sample.csv
