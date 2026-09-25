@@ -1,0 +1,4 @@
+Date,Time (UTC),Type,Symbol,Specification,Liquidity Indicator,Trading Fee Rate (bps),USD Amount,Trading Fee (USD),Net Proceeds (USD),BTC Amount
+2021-06-15,10:15:30,Buy,BTCUSD,Limit,Taker,35.00,$3200.00,$11.20,-$3211.20,0.10000000
+2021-09-01,16:40:10,Sell,ETHUSD,Limit,Maker,10.00,$7000.00,$7.00,+$6993.00,2.00000000
+2021-10-12,08:30:00,Buy,ETHUSD,Limit,Taker,35.00,$3500.00,$12.25,-$3512.25,1.00000000

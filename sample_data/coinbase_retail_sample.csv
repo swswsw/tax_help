@@ -1,0 +1,11 @@
+Coinbase Transaction Report
+Generated at 2021-12-31 23:59:59 UTC
+User: Alex Investor
+Email: alex@example.com
+
+Timestamp,Transaction Type,Asset,Quantity Transacted,Spot Price Currency,Spot Price at Transaction,Subtotal,Total (inclusive of fees and/or spread),Fees and/or Spread,Notes
+2021-05-10T14:23:05Z,Buy,ETH,1.5,USD,3000.00,4500.00,4515.00,15.00,Bought 1.5000 ETH for $4515.00 USD
+2021-05-01T09:00:00Z,Receive,USD,5000.00,USD,1.00,5000.00,5000.00,0.00,Bank deposit received
+2021-06-01T12:00:00Z,Send,ETH,0.5,USD,2800.00,1400.00,1414.00,14.00,Sent 0.5 ETH to external address
+2021-08-14T19:30:00Z,Sell,BTC,0.05,USD,45000.00,2250.00,2235.00,15.00,Sold 0.0500 BTC for $2235.00 USD
+2021-11-20T17:00:00Z,Buy,SOL,10.0,USD,200.00,2000.00,2010.00,10.00,Bought 10.0000 SOL for $2010.00 USD (Untracked in CoinTracking)

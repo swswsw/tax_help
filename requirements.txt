@@ -1,0 +1,2 @@
+# Optional dependencies (rich is already present in environment)
+rich>=13.0.0
