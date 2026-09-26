@@ -1,0 +1,5 @@
+Date,Time (UTC),Type,Symbol,Specification,Amount,Fee,USD Amount
+2021-01-15,14:20:00,Deposit,USD,Wire Deposit,10000.00,0.00,$10000.00
+2021-03-01,09:15:30,Deposit,BTC,Crypto Deposit,0.50000000,0.00000000,$24000.00
+2021-04-10,16:45:10,Withdrawal,ETH,Crypto Withdrawal,2.00000000,0.00100000,$4200.00
+2021-05-20,11:00:00,Withdrawal,USD,ACH Withdrawal,2500.00,0.00,$2500.00

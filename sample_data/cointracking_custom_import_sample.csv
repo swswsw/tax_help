@@ -1,0 +1,5 @@
+"Type","Buy Amount","Buy Cur.","Sell Amount","Sell Cur.","Fee Amount","Fee Cur.","Exchange","Trade-Group","Comment","Date","Tx-ID"
+"Trade","0.75000000","ETH","2250.00","USD","7.50","USD","Coinbase","Main Portfolio","Bought ETH via app","2021-04-15 11:30:00","CB-ORD-881"
+"Trade","1500.00","USD","0.03500000","BTC","12.50","USD","Gemini","Trading","Sold BTC on ActiveTrader","2021-05-18 16:00:00","GEM-TR-992"
+"Deposit","1000.00","USDC","","","0.00","USD","Coinbase","Main Portfolio","USDC transfer in","2021-06-01 08:00:00",""
+"Withdrawal","","","0.25000000","BTC","0.00050000","BTC","Bittrex","Cold Storage","Withdraw to hardware wallet","2021-07-10 14:15:00","tx-bit-773"

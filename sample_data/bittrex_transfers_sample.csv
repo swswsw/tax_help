@@ -1,0 +1,4 @@
+PaymentUuid,Currency,Amount,Address,Opened,Authorized,Pending,Completed,TxCost,TxId
+pay-9901-btc,BTC,1.25000000,1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa,2021-02-10T11:00:00,True,False,2021-02-10T11:25:00,0.00050000,0xbtc_deposit_txid_001
+pay-9902-eth,ETH,5.00000000,0x71C8fb8613375779979323E784B47652c29638AC,2021-03-12T15:30:00,True,False,2021-03-12T15:45:00,0.00500000,0xeth_withdrawal_txid_002
+pay-9903-usd,USD,15000.00,wire_deposit_bank,2021-01-05T09:00:00,True,False,2021-01-05T09:30:00,0.00,ACH-WIRE-DEP-003

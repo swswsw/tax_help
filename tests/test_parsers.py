@@ -147,6 +147,38 @@ class TestParsers(unittest.TestCase):
         self.assertEqual(first.sent_currency, "BTC")
         self.assertEqual(first.fee_amount, Decimal("0.00003750"))
 
+    def test_new_sample_files_parsing(self):
+        # 1. CoinTracking custom import sample
+        ct_custom = SAMPLE_DIR / "cointracking_custom_import_sample.csv"
+        self.assertTrue(CoinTrackingParser.can_parse(ct_custom))
+        ct_txs = CoinTrackingParser().parse_file(ct_custom)
+        self.assertEqual(len(ct_txs), 4)
+        self.assertEqual(ct_txs[0].order_id, "CB-ORD-881")
+        self.assertEqual(ct_txs[0].received_currency, "ETH")
+
+        # 2. Coinbase Advanced / Pro fills sample
+        cb_fills = SAMPLE_DIR / "coinbase_advanced_fills_sample.csv"
+        self.assertTrue(CoinbaseParser.can_parse(cb_fills))
+        cb_txs = CoinbaseParser().parse_file(cb_fills)
+        self.assertEqual(len(cb_txs), 3)
+        self.assertEqual(cb_txs[0].order_id, "7891234")
+        self.assertEqual(cb_txs[0].received_currency, "BTC")
+
+        # 3. Gemini transfers sample
+        gem_trans = SAMPLE_DIR / "gemini_transfers_sample.csv"
+        self.assertTrue(GeminiParser.can_parse(gem_trans))
+        gem_txs = GeminiParser().parse_file(gem_trans)
+        self.assertEqual(len(gem_txs), 4)
+        self.assertEqual(gem_txs[0].tx_type, TransactionType.DEPOSIT)
+
+        # 4. Bittrex transfers sample
+        bit_trans = SAMPLE_DIR / "bittrex_transfers_sample.csv"
+        self.assertTrue(BittrexParser.can_parse(bit_trans))
+        bit_txs = BittrexParser().parse_file(bit_trans)
+        self.assertEqual(len(bit_txs), 3)
+        self.assertEqual(bit_txs[0].order_id, "0xbtc_deposit_txid_001")
+
 
 if __name__ == "__main__":
     unittest.main()
+

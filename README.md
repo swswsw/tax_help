@@ -41,12 +41,16 @@ tax_help/
 │   ├── exchange_export_guide.md    # Step-by-step export download instructions
 │   ├── reconciliation_guide.md     # In-depth tax reconciliation & issue fixing guide
 │   └── architecture.md             # System design & developer guide
-├── sample_data/                    # Sample CSV files for testing and reference
+├── sample_data/                    # Sample CSV datasets (see sample_data/README.md)
 │   ├── cointracking_sample.csv
+│   ├── cointracking_custom_import_sample.csv
 │   ├── coinbase_retail_sample.csv
 │   ├── coinbase_pro_sample.csv
+│   ├── coinbase_advanced_fills_sample.csv
 │   ├── gemini_sample.csv
-│   └── bittrex_sample.csv
+│   ├── gemini_transfers_sample.csv
+│   ├── bittrex_sample.csv
+│   └── bittrex_transfers_sample.csv
 ├── tax_comparator/                 # Core Python package
 │   ├── models.py                   # Data models (NormalizedTransaction, Discrepancy, etc.)
 │   ├── comparator.py               # Matching & reconciliation engine
