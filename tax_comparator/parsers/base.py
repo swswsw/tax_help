@@ -36,7 +36,7 @@ class BaseParser(ABC):
     def clean_string(val: Optional[str]) -> str:
         if val is None:
             return ""
-        return val.strip().strip('"').strip("'").strip()
+        return val.strip().strip('"').strip("'").strip().strip("\ufeff")
 
     @classmethod
     def normalize_currency(cls, curr: Optional[str]) -> Optional[str]:
